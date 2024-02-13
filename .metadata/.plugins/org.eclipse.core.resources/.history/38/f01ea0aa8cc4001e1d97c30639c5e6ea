@@ -1,0 +1,11 @@
+package day02;
+
+public class EX04 {public static void main(String[] args) {
+	//형변환 자료형태를 변화시킨다
+	char ch = 'A';
+	System.out.println(ch);
+	int num = ch;
+	System.out.println(num);
+ 	}
+
+}

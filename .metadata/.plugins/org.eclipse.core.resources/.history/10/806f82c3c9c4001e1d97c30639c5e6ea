@@ -1,0 +1,27 @@
+package day02;
+
+import java.util.Scanner;
+
+public class quiz06 {
+public static void main(String[] args) {
+	Scanner input = new Scanner(System.in);
+	System.out.println("<결과>");
+	System.out.print("학생 이름 :");
+	String a = input.next();
+	System.out.print("국어 점수 :");
+	int b =input.nextInt();
+	System.out.print("영어 점수 :");
+	int c =input.nextInt();
+	System.out.print("수학 점수 :");
+	int d =input.nextInt();
+	System.out.println("=============학생 정보=============");
+	System.out.println("이름\t국어\t영어\t수학\t합계\t평균");
+	System.out.println("--------------------------------");
+	double f = b+c+d;
+	double e = f/3;
+	System.out.println(a+"\t"+b +"\t"+c +"\t"+d +"\t"+f+"\t"+e);
+	
+	
+	
+}
+}

@@ -1,0 +1,14 @@
+package day02;
+
+public class EX09 {
+public static void main(String[] args) {
+	
+	String name = "홍길동";
+	int kes = k = 100 , e = 98 , s = 75;
+	
+	System.out.println("당신의 이름은 무엇입니까 ?"+ name);
+	System.out.println("님의 국어 점수 :"+k);
+	System.out.println("님의 영어 점수 :"+e);
+	System.out.println("님의 수학 점수 :"+s);
+}
+}

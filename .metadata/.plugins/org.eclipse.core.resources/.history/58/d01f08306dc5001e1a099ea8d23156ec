@@ -1,0 +1,9 @@
+package if_;
+
+import java.util.Scanner;
+
+public class quiz04 {
+public static void main(String[] args) {
+	Scanner input = new 
+}
+}

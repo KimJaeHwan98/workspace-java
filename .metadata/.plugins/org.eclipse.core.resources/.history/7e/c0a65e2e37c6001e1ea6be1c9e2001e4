@@ -1,0 +1,7 @@
+package for_;
+
+public class EX05 {
+	for(;;) {
+		System.out.println("실행");
+	}
+}

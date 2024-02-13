@@ -1,0 +1,23 @@
+package while_;
+
+import java.util.Scanner;
+
+//break continue 응용 문제
+// 꼭 컨티뉴를 사용 의미는 없다
+public class EX04 {
+public static void main(String[] args) {
+	Scanner input = new Scanner(System.in);
+	int i = 0;
+	while(true) {
+		System.out.println("1~10사이 수 입력");
+		i = input.nextInt();
+		if(i>0&&i<=10) {
+			break;
+		}else if(i<=0||i>10) {
+			System.out.println("범위를 벗어남. 다시 입력");
+			continue;
+		}
+		System.out.println("while 다시 실행...");
+	}
+}
+}

@@ -1,0 +1,23 @@
+package if_;
+
+import java.util.Scanner;
+
+public class quiz05 {
+public static void main(String[] args) {
+	Scanner input = new Scanner(System.in);
+	System.out.println("계산기입니다.");
+	System.out.println("덧셈");
+	System.out.println("뺄셈");
+	System.out.println("곱셈");
+	System.out.println("나눗셈");
+	System.out.println("나머지");
+	System.out.println("원하시는 기능의 숫자를 입력해주세요 :");
+	int num = input.nextInt();
+	int numA=0,numB=0,resul=0;
+	if(num ==1) {
+		System.out.println("덧셈을 진행할 두개의 값을 입력해주세요");
+		System.out.println("첫번째 값 :");
+		numA=input.nextInt();
+	}
+}
+}

@@ -1,0 +1,26 @@
+package day02;
+
+import java.util.Scanner;
+
+public class quiz06 {
+public static void main(String[] args) {
+	Scanner input = new Scanner(System.in);
+	System.out.println("<결과>");
+	System.out.print("학생 이름 :");
+	String a = input.next();
+	System.out.print("국어 점수 :");
+	int b =input.nextInt();
+	System.out.print("영어 점수 :");
+	int c =input.nextInt();
+	System.out.print("수학 점수 :");
+	int d =input.nextInt();
+	System.out.println("=============학생 정보=============");
+	System.out.println("이름  국어  영어  수학  합계  평균");
+	System.out.println("--------------------------------");
+	double f =b/c/d;
+	System.out.println("a"+"b" +c +d +f);
+	
+	
+	
+}
+}

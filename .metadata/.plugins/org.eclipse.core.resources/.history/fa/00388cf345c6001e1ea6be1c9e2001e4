@@ -1,0 +1,22 @@
+package for_;
+
+import java.util.Scanner;
+
+public class quiz05 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int a =input.nextInt();
+		int b =input.nextInt();
+		int sum;
+		for(int a= 1;i<=9;a++) {
+			for(int b = 1;b<=9;b++) {
+			sum = a*b;
+			System.out.println(a+"*"+b+"="+sum);
+			sum = 0;
+			}
+		}
+
+	}
+
+}

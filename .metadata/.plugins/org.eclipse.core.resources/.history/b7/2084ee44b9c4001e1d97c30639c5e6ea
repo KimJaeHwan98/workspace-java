@@ -1,0 +1,17 @@
+package day02;
+
+import java.util.Scanner;
+
+public class quiz01 {
+public static void main(String[] args) {
+	Scanner input =new Scanner(System.in);
+	System.out.println("수 입력 :");
+	int num = input.nextInt();
+	String result=(num%2==0)?"짝수"  :"짝수가 아니다";
+	String result1=(num%3==0)?"3의 배수이다" : "3의배수가 아니다";
+	System.out.println(result);
+	System.out.println(result1);
+		
+
+}
+}

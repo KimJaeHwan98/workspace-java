@@ -1,0 +1,11 @@
+package day02;
+
+public class EX05 {public static void main(String[] args) {
+	//값에대한 변경을 하지않는다.
+	final String korea = "대한민국"; //final을 붙여주면 어떠한 의미가 있는 것은 상수 화 시킨다.
+	System.out.println(korea);
+	//korea = "미국";
+	System.out.println(korea);
+	}
+
+}

@@ -1,0 +1,29 @@
+package for_;
+
+public class quiz03 {
+	public static void main(String[] args) {
+		for (int i = 5; i >= 1; i--) {
+            // 공백 출력
+            for (int j = i; j < 5; j++) {
+                System.out.print(" ");
+            }
+            // 별표 출력
+            for (int j = 1; j <= 2 * i - 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        // 아래쪽 부분 출력
+        for (int i = 4; i >= 1; i--) {
+            // 공백 출력
+            for (int j = 4; j > i; j--) {
+                System.out.print(" ");
+            }
+            // 별표 출력
+            for (int j = 1; j <= 2 * i - 1; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}

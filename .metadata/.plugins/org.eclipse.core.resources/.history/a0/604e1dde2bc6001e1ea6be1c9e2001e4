@@ -1,0 +1,13 @@
+package for_;
+//위에서 인트값을 만들어도된다
+public class EX04 {
+public static void main(String[] args) {
+	int i=1;
+	for(;i < 10; i += 2) {// i = i+2;
+		System.out.println(i);
+		
+	}
+	System.out.println("----------------i : "+ i);
+	
+}
+}

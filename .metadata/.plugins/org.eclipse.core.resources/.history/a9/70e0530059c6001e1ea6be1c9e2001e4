@@ -1,0 +1,9 @@
+package for_;
+
+import java.util.Scanner;
+
+public class quiz07 {
+public static void main(String[] args) {
+	Scanner input = new 
+}
+}

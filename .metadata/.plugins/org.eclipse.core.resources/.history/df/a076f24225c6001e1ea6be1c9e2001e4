@@ -1,0 +1,12 @@
+package for_;
+
+public class EX02 {
+public static void main(String[] args) {
+	int sum = 0;
+	//sum = sum + i; i++;
+	for(int i = 1 ; i <=10 ;i++) {
+		System.out.println(i);
+	}
+}
+}
+// 세미콜론 2개가 무조건 들어가야한다.

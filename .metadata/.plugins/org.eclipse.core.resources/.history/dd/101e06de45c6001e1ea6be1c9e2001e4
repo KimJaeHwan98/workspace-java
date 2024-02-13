@@ -1,0 +1,17 @@
+package for_;
+
+public class quiz05 {
+
+	public static void main(String[] args) {
+		int sum;
+		for(int i= 1;i<=9;i++) {
+			for(int n = 1;n<=9;n++) {
+			sum = i*n;
+			System.out.println(i+"*"+n+"="+sum);
+			sum = 0;
+			}
+		}
+
+	}
+
+}

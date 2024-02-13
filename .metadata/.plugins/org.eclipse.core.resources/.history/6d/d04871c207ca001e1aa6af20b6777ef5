@@ -1,0 +1,11 @@
+package while_;
+
+import java.util.Scanner;
+
+//break continue 응용 문제
+// 꼭 컨티뉴를 사용 의미는 없다
+public class EX04 {
+public static void main(String[] args) {
+	Scanner input = new 
+}
+}

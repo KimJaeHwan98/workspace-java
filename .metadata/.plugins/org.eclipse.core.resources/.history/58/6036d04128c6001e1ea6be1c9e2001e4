@@ -1,0 +1,14 @@
+package for_;
+
+public class EX02 {
+public static void main(String[] args) {
+	int sum = 0;
+	//sum = sum + i; i++;
+	for(int i = 1 ; i <=10000 ;i++) {
+		System.out.println(i);
+		sum = sum + 1;
+	}
+	System.out.println("sum"+sum);
+}
+}
+// 세미콜론 2개가 무조건 들어가야한다.

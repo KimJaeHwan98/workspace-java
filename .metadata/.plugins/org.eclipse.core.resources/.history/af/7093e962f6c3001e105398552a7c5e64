@@ -1,0 +1,14 @@
+package day01;
+
+public class EX01 {
+   public static void main(String[] args) {
+	//main 프로그램 시작점
+	//sysout ctrl+space 자동완성기능
+	   /*
+	   문단 주석 
+	    */
+	   System.out.println( 100 );
+	//System.out.println("안녕하세요");
+	System.out.println("내용");
+}
+}
